@@ -1,0 +1,152 @@
+
+body {
+    font-family: Gotham, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    justify-content: space-between;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+}
+
+.logo img {
+    max-width: 20%;
+    border-radius: 10px;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('entreno copy.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 6.7cm;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: #00796b;
+}
+
+section p {
+    text-align: center;
+    color: #555;
+}
+
+.trainers, .service, .testimonial {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.trainer, .service, .testimonial {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.trainer img, .testimonial img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+form label {
+    color: #00796b;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Gotham, sans-serif;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card {
+    background-color: rgba(38, 174, 186, 0.566);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+.icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #00769b;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
